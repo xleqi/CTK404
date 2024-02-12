@@ -1,0 +1,40 @@
+#example {
+  color: #a90000;
+  background-color: #d8a604;
+}
+
+.red {
+  color: #e20a0a;
+}
+
+.yellow {
+  color: #deb80e;
+}
+
+p {
+  background-color: #ebcd09;
+}
+
+h3 {
+  background-color: #ebcd09;
+}
+
+h4 {
+  background-color: #ebcd09;
+}
+
+a {
+  color: #8f0808;
+}
+
+a:visited {
+  color: #0db716;
+}
+
+a:hover {
+  color: #ffff00;
+}        
+
+.more {
+  color: #00028e;
+}      
