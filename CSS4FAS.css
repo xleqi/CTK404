@@ -1,0 +1,41 @@
+#YellowB {
+    background-color: yellow;
+  }
+
+.orange {
+    color: rgb(255, 179, 0);
+  }
+
+#BBL{
+    background-color: rgb(165, 176, 255);
+  }
+
+#BB{
+    color: rgb(0, 30, 255);
+  }
+
+#red {
+    color: rgb(255, 0, 0);
+  }
+
+h1 {
+    color: rgb(255, 255, 255);
+  }
+  
+h2 {
+    color: rgb(0, 136, 248);
+  }
+  
+h3 {
+    background-color: rgb(255, 251, 0);
+  }
+
+#YellowG {
+    color: yellow;
+    background-color: rgb(6, 75, 0);
+  }
+
+#green {
+    background-color: rgb(123, 235, 115);
+  }
+
