@@ -1,0 +1,34 @@
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textleft {
+  text-align: left;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: #ff9d00;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: #ff9d00;
+}
+
+.imgbox {
+  border: 2px solid #000000;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: #fff203;
+}
+
+body {
+  background-image: url(3.png);
+}
