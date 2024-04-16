@@ -1,0 +1,93 @@
+body { 
+    background-image: url(a62.png);
+}
+
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 5px solid #000000;
+  background-image: url(114.png);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+p{    
+    font-family: 'Oswald',sans-serif;
+    text-shadow: 2px 2px 2px #00000025; /* x, y, blur, color */
+}
+
+.h21 {
+    grid-column: span 4; 
+    margin-left: 230px;
+    margin-top: 30px;
+
+}
+
+.h22 {
+    grid-column: span 8; 
+    margin-top: 90px;
+    margin-left: -750px;
+}
+
+.textbgimage {
+    width: 450px; /* width of the box */
+    height: 160px;
+    padding-top: 35px; /* padding inside the element */
+    padding-left: 35px;
+    color: rgb(0, 0, 0); /* white text */
+    background-image: url(1144.png); /* image in background of element */
+    background-size: cover; /* makes bg image fit inside of the element */
+    margin-bottom: 1em; /* space at the bottom */
+  }
+
+.am {
+    padding-left: 70px;
+    padding-top: 10px;
+    font-size: 2.5em;
+}
+
+
+.h23 {
+    grid-column: span 12; 
+}
+.another {
+    width: 700px; /* width of the box */
+    height: 480px;  
+    padding-top: 35px; /* padding inside the element */
+    color: rgb(0, 0, 0); /* white text */
+    background-image: url(55.png); /* image in background of element */ 
+    padding-right: 35px;
+    background-size: cover; /* makes bg image fit inside of the element */
+    margin-left: 180px; /* space at the bottom */
+    font-size: 2em;
+  }
+
+.alt {
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 30px;
+
+}
+
+.h24 {
+    grid-column: span 4; 
+    margin-left: 180px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.thisone {
+    margin-left: 65px;
+
+}
+
+.ins{
+    grid-column: span 8;
+    margin-left: -250px;
+    margin-top: 300px;
+}
+
+.video{
+    margin-top: -50px;
+}
