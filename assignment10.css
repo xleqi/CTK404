@@ -67,12 +67,42 @@ p{
 
 .h24 {
     grid-column: span 4; 
+    margin-top: -30px;
     margin-left: 180px;
     padding-bottom: 10px;
     margin-right: 10px;
     padding: 10px;
 }
 
+figure:hover {
+    transform: scale(1.1);
+    
+  }
+
+figure .hoverimg{
+    position: absolute; /* allows image to be placed on top of other image */
+    top: -9px;
+    left: 65px;
+    opacity: 0; /* hide hover image */
+
+}
+
+figure .hovering{
+    position: absolute; /* allows image to be placed on top of other image */
+    top: -24px;
+    left: 0;
+    opacity: 0; /* hide hover image */
+
+}
+
+figure:hover .hoverimg {
+    opacity: 1; /* reveal hover image */
+  }
+
+  figure:hover .hovering {
+    opacity: 1; /* reveal hover image */
+  }
+  
 .thisone {
     margin-left: 65px;
 
