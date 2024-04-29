@@ -1,0 +1,77 @@
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid #000000;
+    background-image: url(514.png);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+p{    
+    font-family: 'Oswald',sans-serif;
+
+}
+
+.h23 {
+  grid-column: span 6; 
+}
+
+
+
+.another {
+  width: 305px; /* width of the box */
+  height: 325px;  
+  padding-top: 35px; /* padding inside the element */
+  color: rgb(0, 0, 0); /* white text */
+  background-image: url(chade.png); /* image in background of element */ 
+  padding-right: 35px;
+  background-size: cover; /* makes bg image fit inside of the element */
+  margin-left: 400px; /* space at the bottom */
+  margin-top: 35px;
+  font-size: 2em;
+}
+
+.alt {
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 30px;
+
+}
+
+.h24{
+  margin-left: -480px;
+  margin-top: 30px;
+}
+
+figure:hover {
+  transform: scale(1.1);
+  
+}
+
+figure .hoverimg{
+  position: absolute; /* allows image to be placed on top of other image */
+  top: -35px;
+  left: 1px;
+  opacity: 0; /* hide hover image */
+
+}
+
+figure:hover .hoverimg {
+  opacity: 1; /* reveal hover image */
+}
+
+.title{
+  grid-column: span 12; 
+  margin-bottom: -350px;
+  margin-left: 300px;
+}
+
+#myCarousel {
+  grid-column: span 12; 
+  margin-left: 160px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  background: #eeeeee00;
+}
