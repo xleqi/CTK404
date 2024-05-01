@@ -23,17 +23,7 @@
     
   }
   
-  figure .hoverimg{
-    position: absolute; /* allows image to be placed on top of other image */
-    top: -35px;
-    left: 1px;
-    opacity: 0; /* hide hover image */
-  
-  }
-  
-  figure:hover .hoverimg {
-    opacity: 1; /* reveal hover image */
-  }
+
 
 #myCarousel {
     grid-column: span 11; 
